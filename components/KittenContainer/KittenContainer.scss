@@ -1,0 +1,122 @@
+.kitten-container {
+  z-index: 99;
+
+  &__top {
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+    > p,
+    > .button-wrapper {
+      display: inline-block;
+    }
+
+    &-filter {
+      display: none;
+    }
+
+    > .button-wrapper {
+      span {
+        font-size: 16px;
+      }
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    > :nth-child(2) {
+      color: $blue;
+      span {
+        font-size: 18px;
+      }
+    }
+
+    @media (min-width: $mobile) {
+      padding: 0.5rem 0;
+      > div:nth-child(1) {
+        span {
+          font-size: 22px;
+        }
+        svg {
+          height: 1.25rem;
+          width: 1.25rem;
+          fill: $blue;
+          &:hover {
+            transition: all 0.2s;
+            fill: $white;
+          }
+        }
+      }
+      display: block;
+
+      > div:nth-child(2) {
+        display: none;
+      }
+
+      &-filter {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid $mediumGrey;
+        border-bottom: 1px solid $mediumGrey;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+
+        &-left {
+          .button-wrapper {
+            &__button {
+              height: 2.5rem;
+              padding: 0 1rem;
+
+              svg {
+                color: $blue;
+                height: 0.75rem;
+                width: 0.75rem;
+              }
+            }
+          }
+        }
+
+        &-right {
+          display: flex;
+          align-items: center;
+
+          .button-wrapper {
+            &:nth-child(3) {
+              svg {
+                fill: $blue;
+              }
+            }
+
+            &:hover {
+              background-color: transparent;
+            }
+            margin-left: 0.5rem;
+
+            svg {
+              fill: $lightGrey;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__kittens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+
+    @media (min-width: $mobile) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (min-width: $desktop) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  @media (min-width: $mobile) {
+    margin-right: 1.5rem;
+  }
+}

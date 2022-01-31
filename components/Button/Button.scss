@@ -1,0 +1,70 @@
+.button-wrapper {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $mediumGrey;
+  }
+
+  &__button {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+    ::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+    }
+
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    color: inherit;
+    cursor: pointer;
+
+    svg + span {
+      margin: 0 0.25rem;
+    }
+
+    span + svg {
+      margin: 0 0.25rem;
+    }
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+  &__dropdown {
+    display: none;
+
+    &.open {
+      display: block;
+      position: absolute;
+      background-color: $black;
+      min-width: 6rem;
+      min-height: 2rem;
+      z-index: 99;
+      display: flex;
+      flex-direction: column;
+      color: $white;
+
+      .button-wrapper {
+        &:hover {
+          background-color: transparent;
+        }
+        &__button {
+          width: 100%;
+          display: flex;
+          svg {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import "variables.scss";
+@import "../components/Button/Button.scss";
+@import "../components/Navbar/Navbar.scss";
+@import "../components/Sidebar/Sidebar.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/Kitten/Kitten.scss";
+@import "../components/KittenContainer/KittenContainer.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $lightDarkGrey;
+  color: $white;
+}
+
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-column-gap: 3rem;
+
+  @media (min-width: $mobile) {
+    grid-template-columns: 12rem auto;
+    margin-top: 1.25rem;
+  }
+}

@@ -1,0 +1,131 @@
+.footer {
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: $black;
+  color: $white;
+  display: flex;
+  justify-content: center;
+
+  &__left {
+    display: none;
+    flex-direction: row;
+    gap: 2rem;
+
+    &-support,
+    &-discover {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      p {
+        color: $mediumGrey;
+        margin: 8px 0;
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+      }
+
+      .button-wrapper {
+        &:first-child {
+          span {
+            text-transform: uppercase;
+            font-size: 12px;
+            &:hover {
+              color: $lightGrey;
+            }
+          }
+          svg {
+            height: 1rem;
+            width: 1rem;
+          }
+        }
+        &:hover {
+          background-color: transparent;
+        }
+        &__button {
+          fill: $mediumGrey;
+          color: $lightGrey;
+
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    text-align: right;
+    gap: 2rem;
+    flex-direction: column;
+    color: $lightGrey;
+
+    &-extras,
+    &-buttons {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      gap: 1rem;
+      font-size: 12px;
+
+      &-terms {
+        display: flex;
+        gap: 0.5rem;
+      }
+      .button-wrapper {
+        span {
+          font-size: 12px;
+        }
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+
+    &-buttons {
+      .button-wrapper {
+        &:hover {
+          background-color: transparent;
+        }
+        &__button {
+          padding: 0 0.5rem;
+          height: 2.5rem;
+          svg,
+          span {
+            color: $blue;
+          }
+
+          svg {
+            height: 0.75rem;
+            width: 0.75rem;
+          }
+        }
+      }
+    }
+
+    &-extras {
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: $tablet) {
+    margin-top: 4rem;
+    &__left {
+      display: flex;
+      min-width: 15rem;
+    }
+
+    &__right {
+      align-items: flex-end;
+      width: 100%;
+
+      &-buttons,
+      &-extras {
+        text-align: right;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
