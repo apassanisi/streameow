@@ -12,4 +12,4 @@ View at `https://localhost:3000`
 View at `https://localhost:6006`
 
 ## Visit Live Demo:
-View at `https://streameow.netlify.app`
+View at [https://streameow.netlify.app](https://streameow.netlify.app)
