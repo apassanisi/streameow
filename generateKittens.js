@@ -1,34 +1,42 @@
+const axios = require("axios");
 const NAMES = [
   "Ace",
   "Ariel",
-  "Ariel",
   "Arrow",
+  "Bandit",
+  "Bean",
   "Bertram",
   "Breeze",
   "Calypso",
   "Cassie",
   "Cheeks",
   "Cleo",
+  "Django",
+  "Dorito",
   "Evie",
-  "Ewok",
   "Ewok",
   "Flash",
   "Hunter",
   "Ice",
   "Indi",
   "Izzy",
+  "Jazz",
+  "Kat",
   "Katnip",
   "Kendra",
   "Lara",
   "Lily",
+  "Loki",
   "London",
   "Maggie",
   "Maisy",
+  "Millie",
   "Mimi",
+  "Missy",
   "Mittens",
+  "Mookie",
   "Mr. Business",
   "Natalia",
-  "Paw McCartney",
   "Peanut",
   "Pixie",
   "Pond",
@@ -36,19 +44,30 @@ const NAMES = [
   "Pounce",
   "Rex",
   "River",
+  "Romeo",
   "Rosie",
   "Rowan",
+  "Simba",
   "Smudge",
   "Sophie",
   "Sparrow",
+  "Star",
   "Stephen",
   "Susie",
   "Thelma",
+  "Tito",
+  "Walter",
   "Winnie",
   "Zadie",
 ];
 const REGIONS = [
-  "face", "weary", "pouting", 'crying', 'kissing', 'heart', 'joy'
+  "face",
+  "weary",
+  "pouting",
+  "crying",
+  "kissing",
+  "heart",
+  "joy",
 ];
 
 const randomNum = (arr) => {
@@ -58,17 +77,25 @@ const randomNum = (arr) => {
 const generateKitten = (index) => {
   return {
     name: NAMES[index],
-    rating: randomNum([1, 2, 3, 4, 5]),
+    rating: randomNum([4, 5]),
     region: REGIONS[randomNum(REGIONS)],
     favorite: Math.random() < 0.5,
-    image: `http://placekitten.com/2${Math.floor(Math.random() * 90 + 10)}/2${Math.floor(Math.random() * 90 + 10)}`
+    image: "",
   };
 };
-
 let allCats = [];
 
 for (let i = 0; i < 45; i++) {
   allCats.push(generateKitten(i));
 }
 
-console.log(allCats);
+allCats.forEach((cat) => {
+  axios
+    .get("https://api.thecatapi.com/v1/images/search", {
+      headers: { "x-api-key": "d40d87a1-f945-430b-a773-d4918c34b2bd" },
+    })
+    .then((res) => {
+      cat.image = res.data[0].url;
+      console.log(cat)
+    });
+});

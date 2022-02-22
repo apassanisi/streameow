@@ -1,3 +1,4 @@
+import axios from "axios";
 import * as React from "react";
 import Button from "../Button/Button";
 
@@ -10,13 +11,7 @@ export type KittenProps = {
   size?: string;
 };
 
-const Kitten: React.FC<KittenProps> = ({
-  name,
-  rating,
-  region,
-  favorite,
-  image
-}) => {
+const Kitten: React.FC<KittenProps> = ({ name, rating, region, favorite, image }) => {
   let ratingArray = [];
   for (let i = 0; i <= rating; i++) {
     ratingArray.push("placeholder");
@@ -24,7 +19,7 @@ const Kitten: React.FC<KittenProps> = ({
   const [ratingDisplay] = React.useState(ratingArray);
 
   return (
-    <div className="kitten" style={{ backgroundImage: 'url("' + image + '")' }}>
+    <div className="kitten" style={{ backgroundImage: `url(${image})` }}>
       <div className="kitten__infobar">
         <div className="kitten__infobar-rating">
           {ratingDisplay.map((ratingIcon, index) => (

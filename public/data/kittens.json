@@ -1,310 +1,317 @@
 [
   {
-    "name": "Ace",
-    "rating": 1,
-    "region": "joy",
-    "favorite": false,
-    "image": "http://placekitten.com/266/250"
-  },
-  {
-    "name": "Ariel",
-    "rating": 1,
-    "region": "kissing",
-    "favorite": false,
-    "image": "http://placekitten.com/243/293"
-  },
-  {
-    "name": "Ariel",
-    "rating": 1,
-    "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/220/223"
-  },
-  {
-    "name": "Arrow",
-    "rating": 1,
-    "region": "joy",
-    "favorite": false,
-    "image": "http://placekitten.com/239/283"
-  },
-  {
-    "name": "Bertram",
-    "rating": 0,
-    "region": "pouting",
-    "favorite": false,
-    "image": "http://placekitten.com/252/283"
-  },
-  {
-    "name": "Breeze",
-    "rating": 0,
-    "region": "face",
-    "favorite": false,
-    "image": "http://placekitten.com/289/293"
-  },
-  {
-    "name": "Calypso",
+    "name": "Maisy",
     "rating": 0,
     "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/228/243"
-  },
-  {
-    "name": "Cassie",
-    "rating": 1,
-    "region": "kissing",
-    "favorite": true,
-    "image": "http://placekitten.com/211/236"
-  },
-  {
-    "name": "Cheeks",
-    "rating": 1,
-    "region": "weary",
     "favorite": false,
-    "image": "http://placekitten.com/246/239"
-  },
-  {
-    "name": "Cleo",
-    "rating": 0,
-    "region": "kissing",
-    "favorite": false,
-    "image": "http://placekitten.com/229/274"
-  },
-  {
-    "name": "Evie",
-    "rating": 0,
-    "region": "pouting",
-    "favorite": false,
-    "image": "http://placekitten.com/224/298"
-  },
-  {
-    "name": "Ewok",
-    "rating": 0,
-    "region": "face",
-    "favorite": true,
-    "image": "http://placekitten.com/253/224"
-  },
-  {
-    "name": "Ewok",
-    "rating": 0,
-    "region": "heart",
-    "favorite": false,
-    "image": "http://placekitten.com/256/246"
-  },
-  {
-    "name": "Flash",
-    "rating": 1,
-    "region": "pouting",
-    "favorite": false,
-    "image": "http://placekitten.com/248/287"
-  },
-  {
-    "name": "Hunter",
-    "rating": 1,
-    "region": "weary",
-    "favorite": true,
-    "image": "http://placekitten.com/216/298"
-  },
-  {
-    "name": "Ice",
-    "rating": 1,
-    "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/287/263"
-  },
-  {
-    "name": "Indi",
-    "rating": 1,
-    "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/290/235"
-  },
-  {
-    "name": "Izzy",
-    "rating": 1,
-    "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/266/232"
-  },
-  {
-    "name": "Katnip",
-    "rating": 1,
-    "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/252/228"
-  },
-  {
-    "name": "Kendra",
-    "rating": 1,
-    "region": "kissing",
-    "favorite": false,
-    "image": "http://placekitten.com/275/243"
-  },
-  {
-    "name": "Lara",
-    "rating": 0,
-    "region": "joy",
-    "favorite": true,
-    "image": "http://placekitten.com/214/246"
-  },
-  {
-    "name": "Lily",
-    "rating": 0,
-    "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/242/231"
-  },
-  {
-    "name": "London",
-    "rating": 0,
-    "region": "heart",
-    "favorite": true,
-    "image": "http://placekitten.com/226/216"
+    "image": "https://cdn2.thecatapi.com/images/MTkwMTI3MA.jpg"
   },
   {
     "name": "Maggie",
     "rating": 1,
-    "region": "kissing",
-    "favorite": false,
-    "image": "http://placekitten.com/258/285"
-  },
-  {
-    "name": "Maisy",
-    "rating": 1,
     "region": "face",
-    "favorite": false,
-    "image": "http://placekitten.com/280/291"
-  },
-  {
-    "name": "Mimi",
-    "rating": 1,
-    "region": "weary",
-    "favorite": false,
-    "image": "http://placekitten.com/246/237"
-  },
-  {
-    "name": "Mittens",
-    "rating": 1,
-    "region": "joy",
     "favorite": true,
-    "image": "http://placekitten.com/279/298"
-  },
-  {
-    "name": "Mr. Business",
-    "rating": 1,
-    "region": "face",
-    "favorite": false,
-    "image": "http://placekitten.com/280/228"
+    "image": "https://cdn2.thecatapi.com/images/AllGB9l57.jpg"
   },
   {
     "name": "Natalia",
     "rating": 0,
     "region": "face",
     "favorite": false,
-    "image": "http://placekitten.com/258/282"
+    "image": "https://cdn2.thecatapi.com/images/bkq.jpg"
   },
   {
-    "name": "Paw McCartney",
+    "name": "Pond",
     "rating": 1,
-    "region": "weary",
-    "favorite": true,
-    "image": "http://placekitten.com/256/212"
+    "region": "kissing",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/805.gif"
+  },
+  {
+    "name": "Missy",
+    "rating": 1,
+    "region": "heart",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/ddf.jpg"
   },
   {
     "name": "Peanut",
     "rating": 0,
     "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/215/287"
-  },
-  {
-    "name": "Pixie",
-    "rating": 0,
-    "region": "face",
-    "favorite": true,
-    "image": "http://placekitten.com/225/211"
-  },
-  {
-    "name": "Pond",
-    "rating": 1,
-    "region": "heart",
     "favorite": false,
-    "image": "http://placekitten.com/263/244"
+    "image": "https://cdn2.thecatapi.com/images/wT-vZlDEZ.jpg"
   },
   {
-    "name": "Poppy",
+    "name": "River",
     "rating": 1,
-    "region": "heart",
+    "region": "kissing",
     "favorite": true,
-    "image": "http://placekitten.com/228/229"
+    "image": "https://cdn2.thecatapi.com/images/b7t.jpg"
+  },
+  {
+    "name": "Mookie",
+    "rating": 0,
+    "region": "kissing",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/6JCuKEGDQ.jpg"
   },
   {
     "name": "Pounce",
     "rating": 1,
-    "region": "weary",
+    "region": "pouting",
     "favorite": true,
-    "image": "http://placekitten.com/221/242"
+    "image": "https://cdn2.thecatapi.com/images/kOdpUKfqJ.jpg"
   },
   {
-    "name": "Rex",
-    "rating": 0,
-    "region": "weary",
-    "favorite": false,
-    "image": "http://placekitten.com/238/215"
-  },
-  {
-    "name": "River",
-    "rating": 0,
+    "name": "Pixie",
+    "rating": 1,
     "region": "heart",
-    "favorite": true,
-    "image": "http://placekitten.com/232/270"
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/c0a.jpg"
   },
   {
-    "name": "Rosie",
-    "rating": 1,
-    "region": "face",
-    "favorite": true,
-    "image": "http://placekitten.com/290/273"
-  },
-  {
-    "name": "Smudge",
-    "rating": 1,
-    "region": "weary",
-    "favorite": true,
-    "image": "http://placekitten.com/215/240"
-  },
-  {
-    "name": "Sophie",
+    "name": "Millie",
     "rating": 0,
     "region": "pouting",
     "favorite": true,
-    "image": "http://placekitten.com/255/242"
+    "image": "https://cdn2.thecatapi.com/images/7kt.jpg"
   },
   {
-    "name": "Sparrow",
+    "name": "Mimi",
+    "rating": 1,
+    "region": "face",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/bkt.jpg"
+  },
+  {
+    "name": "Mittens",
     "rating": 1,
     "region": "heart",
     "favorite": false,
-    "image": "http://placekitten.com/297/263"
+    "image": "https://cdn2.thecatapi.com/images/15v.jpg"
   },
   {
-    "name": "Stephen",
+    "name": "Rex",
+    "rating": 1,
+    "region": "heart",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/cip.jpg"
+  },
+  {
+    "name": "Poppy",
+    "rating": 1,
+    "region": "pouting",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/yeauSxGXb.jpg"
+  },
+  {
+    "name": "Mr. Business",
+    "rating": 0,
+    "region": "heart",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/bhs.jpg"
+  },
+  {
+    "name": "Romeo",
+    "rating": 0,
+    "region": "joy",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/3lc.jpg"
+  },
+  {
+    "name": "Cassie",
+    "rating": 1,
+    "region": "weary",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/ShbKwvcD_.jpg"
+  },
+  {
+    "name": "Dorito",
+    "rating": 0,
+    "region": "heart",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/b0s.jpg"
+  },
+  {
+    "name": "Flash",
+    "rating": 0,
+    "region": "kissing",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/4pl.gif"
+  },
+  {
+    "name": "Bertram",
+    "rating": 1,
+    "region": "crying",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/ahu.jpg"
+  },
+  {
+    "name": "Django",
+    "rating": 0,
+    "region": "crying",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/MTgyODc3NQ.jpg"
+  },
+  {
+    "name": "Bandit",
+    "rating": 1,
+    "region": "kissing",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/bma.jpg"
+  },
+  {
+    "name": "Calypso",
+    "rating": 0,
+    "region": "joy",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/55f.jpg"
+  },
+  {
+    "name": "Breeze",
+    "rating": 0,
+    "region": "weary",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/a74.gif"
+  },
+  {
+    "name": "Bean",
+    "rating": 1,
+    "region": "pouting",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/9vu.jpg"
+  },
+  {
+    "name": "Izzy",
+    "rating": 0,
+    "region": "face",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/5un.jpg"
+  },
+  {
+    "name": "Hunter",
+    "rating": 0,
+    "region": "joy",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/MPP9QM6E8.jpg"
+  },
+  {
+    "name": "Lily",
+    "rating": 1,
+    "region": "joy",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/MTY1Mzg2OA.jpg"
+  },
+  {
+    "name": "Katnip",
+    "rating": 1,
+    "region": "joy",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/80b.gif"
+  },
+  {
+    "name": "London",
+    "rating": 0,
+    "region": "kissing",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/7p4.gif"
+  },
+  {
+    "name": "Jazz",
+    "rating": 0,
+    "region": "face",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/40b.jpg"
+  },
+  {
+    "name": "Indi",
     "rating": 0,
     "region": "weary",
     "favorite": true,
-    "image": "http://placekitten.com/234/294"
+    "image": "https://cdn2.thecatapi.com/images/-aAkjNu1r.jpg"
   },
   {
-    "name": "Susie",
+    "name": "Ace",
     "rating": 0,
-    "region": "crying",
-    "favorite": true,
-    "image": "http://placekitten.com/229/239"
+    "region": "kissing",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/ak2.jpg"
   },
   {
-    "name": "Thelma",
+    "name": "Ariel",
+    "rating": 0,
+    "region": "face",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/dtv.jpg"
+  },
+  {
+    "name": "Cleo",
+    "rating": 1,
+    "region": "face",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/7Zn9vtWND.jpg"
+  },
+  {
+    "name": "Cheeks",
+    "rating": 1,
+    "region": "crying",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/LIQSvUemz.jpg"
+  },
+  {
+    "name": "Arrow",
+    "rating": 0,
+    "region": "weary",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/lFk9G8sKh.png"
+  },
+  {
+    "name": "Ewok",
     "rating": 1,
     "region": "heart",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/MjA0NDU5Mw.jpg"
+  },
+  {
+    "name": "Lara",
+    "rating": 1,
+    "region": "face",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/5co.jpg"
+  },
+  {
+    "name": "Kat",
+    "rating": 1,
+    "region": "weary",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/79o.jpg"
+  },
+  {
+    "name": "Evie",
+    "rating": 0,
+    "region": "joy",
     "favorite": true,
-    "image": "http://placekitten.com/225/256"
+    "image": "https://cdn2.thecatapi.com/images/7bl.jpg"
+  },
+  {
+    "name": "Kendra",
+    "rating": 0,
+    "region": "face",
+    "favorite": true,
+    "image": "https://cdn2.thecatapi.com/images/a03.jpg"
+  },
+  {
+    "name": "Loki",
+    "rating": 1,
+    "region": "kissing",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/r0.jpg"
+  },
+  {
+    "name": "Ice",
+    "rating": 1,
+    "region": "weary",
+    "favorite": false,
+    "image": "https://cdn2.thecatapi.com/images/YQKJJcqNZ.jpg"
   }
 ]
