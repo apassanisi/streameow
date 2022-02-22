@@ -1,4 +1,3 @@
-import axios from "axios";
 import * as React from "react";
 import Button from "../Button/Button";
 
