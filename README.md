@@ -1,13 +1,39 @@
-# Streameow
+<div align="center">
+<div style="display: inline-block;">
+  <div style="max-width: 15px; display: inline-block;">
+    <img src="https://streameow.netlify.app/favicon.svg" alt="icon">
+  </div>
+  <h2 style="width: 10px; display: inline"align="center">streameow</h2>
+</div>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3f5e542b-9ee3-4507-8ab1-06047e469bdb/deploy-status)](https://app.netlify.com/sites/streameow/deploys)
+  <p align="center">A mock UI for streaming cat videos created for an interview assessment
+  <br />
+  <a href="https://streameow.netlify.app/" style=""><strong>View live »</strong></a>
+  <div style="max-width: 75px;">
 
-| Use          | Command                | URL                                                            |
-| ------------ | ---------------------- | -------------------------------------------------------------- |
-| Installation | `nvm use && npm i`     | N/A                                                            |
-| Development  | `npm run dev`          | [http://localhost:3000](http://localhost:3000)                 |
-| Storybook    | `npm run storybook`     | [http://localhost:6006](http://localhost:6006)                 |
-| Build        | `npm run build`        | N/A                                                            |
-| Live         | `git push origin main` | [https://streameow.netlify.app](https://streameow.netlify.app) |
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9e8ccbbb-b4cb-4456-b400-2e2e778e26c3/deploy-status)](https://app.netlify.com/sites/apassanisidemotodo/deploys)
 
----
+  </div>
+  </p>
+<small>Built with:</small>
+<br/>
+<img src="https://img.shields.io/badge/-React.js-2b2b2b?logo=react&style=flat-square" alt="Badge">
+<img src="https://img.shields.io/badge/TypeScript-2b2b2b?logo=Typescript&style=flat-square" alt="Badge">
+<img src="https://img.shields.io/badge/Storybook-2b2b2b?logo=Storybook&style=flat-square" alt="Badge">
+</div>
+
+### Usage
+
+| Use                    | Command            | URL                                            |
+| ---------------------- | ------------------ | ---------------------------------------------- |
+| Install locally        | `npm use && npm i` |                                                |
+| Start local dev server | `npm dev`          | [http://localhost:5173](http://localhost:5173) |
+| Static build           | `npm build`        |                                                |
+| View component library | `npm storybook`    | [http://localhost:6006](http://localhost:6006) |
+
+### Environments
+
+| Environment | URL                                                              |
+| ----------- | ---------------------------------------------------------------- |
+| Local       | [http://localhost:3000](http://localhost:3000)                   |
+| Prod        | [https://streameow.netlify.app/](https://streameow.netlify.app/) |
