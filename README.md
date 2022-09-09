@@ -1,9 +1,6 @@
 <div align="center">
 <div style="display: inline-block;">
-  <div style="max-width: 15px; display: inline-block;">
-    <img src="https://streameow.netlify.app/favicon.svg" alt="icon">
-  </div>
-  <h2 style="width: 10px; display: inline"align="center">streameow</h2>
+    <img src="https://streameow.netlify.app/logo.svg" alt="icon">
 </div>
 
   <p align="center">A mock UI for streaming cat videos created for an interview assessment
