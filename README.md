@@ -3,7 +3,7 @@
     <img src="https://streameow.netlify.app/logo.svg" alt="icon">
 </div>
 
-  <p align="center">A mock UI for streaming cat videos created for an interview assessment
+  <p align="center">A mock UI for finding and meeting cats.  created for an interview assessment
   <br />
   <a href="https://streameow.netlify.app/" style=""><strong>View live »</strong></a>
   <div style="max-width: 75px;">
